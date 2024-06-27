@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Coffee Shop Website</title>
+</head>
+<body>
+  <div class="nav">
+      <a href="index.html" class="brand">
+      </a>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Brew</a></li>
+        <li><a href="menu.html">Store</a></li>
+        <li><a href="menu.html">Order</a></li>            
+      </ul> 
+    </div>
+    
+  </div>
+
+
+  <div class="hero-page" id="hero-page">
+      <div class="swiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="banner banner_1">
+            <div>
+              <h1>Black Coffee</h1>
+              <h2>SALE</h2>
+              <p>"Enjoy the bold flavors of our premium coffee with an exclusive offer! 
+              Get ff your next purchase with code COFFEE20. Savor the savings and the
+              taste—order now!"
+              </p>
+              <button class="btn-2 btn-banner-1" onclick="window.location.href='menu.html'">
+                Order Now
+              </button>
+            </div>
+            <img src="img/banner_1.png" alt="banner">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="banner banner_2">
+            <img src="img/banner_2.png" alt="banner">
+            <div>
+              <h1>Strawberry Smoothie</h1>
+              <p>try our new juicy strawberries blended to perfection 
+                with creamy yogurt and a hint of honey, for a hot day.
+              </p>
+              <button class="btn-2 btn-banner-2" onclick="window.location.href='menu.html'">
+                Order Now
+              </button>
+            </div> 
+          </div>
+        </div>
+      
+        <div class="swiper-slide">
+          <div class="banner banner_3">
+            <img src="img/banner_3.png" alt="banner">
+            <div>
+              <h1>Hot Chocolate</h1>
+              <p>try our new velvery got chocolate, and let the warmth seep into your soul.
+              </p>
+              <button class="btn-2 btn-banner-3" onclick="window.location.href='menu.html'">
+                Order Now
+              </button>
+            </div> 
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+  
+  <!-- Category -->
+  <div class="category">
+    <a href="menu.html#hd">
+      <div class="category-item hot-drinks">
+        <h4>Hot Drinks</h4>
+      </div>
+    </a>
+
+    <a href="menu.html#cd">
+      <div class="category-item cold-drinks">
+        <h4>Cold Drinks</h4>
+      </div>
+    </a>
+
+    <a href="menu.html#fd">
+      <div class="category-item foods">
+        <h4>Foods</h4>
+      </div>
+    </a>
+
+    <a href="menu.html#md">
+      <div class="category-item merchandise">
+        <h4>Merchandise</h4>
+      </div>
+    </a>
+  </div>
+
+  <section class="about" id="about">
+    <h1>About <b>Coffee Shop</b></h1>
+    
+    <div class="about-container">
+      <div class="about-headline">
+        <p>Discover the Perfect Brew: Welcome to <b>Coffee Shop</b>, 
+          Where Every Cup Tells a Story!</p>
+        <p>Savor Every Sip: Dive into a World of Exquisite Flavors and Aromas 
+          at Our Charming Coffee Haven. Immerse Yourself in the Artisanal 
+          Craftsmanship of Our Baristas, Where Passion Meets Precision in Every Cup.
+          Join Us for a Journey of Taste and Tradition, Where Every Visit 
+          Promises Warmth, Community, and the Finest Brews.</p>
+        <button class="btn-2 btn-about" onclick="window.location.href='contact.html'">
+            Contact Us
+        </button>  
+      </div>
+      <div class="about-img">
+        <img src="img/about-1.png" alt="img">
+        <img src="img/about-2.png" alt="img">
+        <img src="img/about-3.png" alt="img">
+      </div>
+    </div>
+    <hr class="divider">
+  </section>
+
+  <!-- Testimonials -->
+  <div class="testimonials">
+    <div class="testimony-container">
+      <div class="testimony">
+        <p>"After stumbling upon this hidden gem at the <b>Coffee Shop</b>,
+           my mornings have transformed into moments of pure delight.
+           The baristas here aren't just experts in coffee; they're magicians
+            who turn every cup into a masterpiece. Whether it's their rich 
+            espresso or creamy latte, each sip is a journey through flavor 
+            and craftsmanship. This place isn't just a coffee shop; it's a 
+            sanctuary for coffee lovers like me who appreciate the art of a perfect brew."
+        </p>
+        <p>- John Smith</p>
+      </div>
+      <div class="testimony">
+        <p>"Discovering the <b>Coffee shop</b> has been a game-changer for me. 
+          The atmosphere is cozy, the aroma of freshly ground beans is intoxicating,
+          and the baristas are true artists. Every cup is a symphony of flavors that never fails to impress. 
+          Whether I'm grabbing a quick pick-me-up or settling in for a relaxing afternoon,
+          this place never disappoints. It's more than just coffee; it's a community of 
+          passionate coffee aficionados brought together by a shared love for exceptional brews."
+        </p>
+        <p>- Jane Doe</p>
+      </div>
+      <div class="testimony">
+        <p>"From the moment I walked into the <b>Coffee shop</b> , I knew I had found my haven.
+           The rich, inviting aroma of freshly roasted beans enveloped me, and the friendly
+           baristas welcomed me like an old friend. Each visit is a journey of discovery, 
+           from their velvety cappuccinos to their perfectly brewed pour-overs.
+           It's not just about the coffee here; it's about the meticulous care and passion poured 
+           into every cup. This place has become my sanctuary, where every sip feels like a moment of bliss."
+        </p>
+        <p>- Bob Johnson</p>  
+      </div>
+    </div>
+  </div>
+  <div class="callout">
+    <div>
+      <h4>Do you know we have a daily delivery service?</h4>
+      <i class="fa-solid fa-truck" style="color: white;"></i>
+    </div>
+    <h1>Elevating Your Coffee Experience</h1>
+    <button class="btn-2 btn-callout" onclick="window.location.href='contact.html'">
+      Contact Us
+  </button> 
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#">
+      <h1>The Coffee Shop</h1>
+    </a>
+    
+    <div class="socials">
+      <a href="facebook.com">
+        <div class="social-box">
+          <i class="fa-brands fa-facebook-f"></i>
+        </div>
+      </a>
+
+      <a href="x.com">
+        <div class="social-box">
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+      </a>
+
+      <a href="linkedin.com">
+        <div class="social-box">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </a>
+
+      <a href="instagram.com">
+        <div class="social-box">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>

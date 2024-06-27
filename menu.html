@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Coffee Shop Website</title>
+</head>
+<body>
+  <div class="nav">
+      <a href="index.html" class="brand">
+      </a>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Brew</a></li>
+        <li><a href="menu.html">Store</a></li>
+        <li><a href="menu.html">Order</a></li>            
+      </ul> 
+    </div>
+    
+  </div>
+
+<!-- Menu Nav -->
+ <div class="menu-navbar">
+    <a href="menu.html#hd">Hot Drinks</a>
+    <a href="menu.html#cd">Cold Drinks</a>
+    <a href="menu.html#fd">Foods</a>
+    <a href="menu.html#md">Merchandise</a>
+</div>
+
+<section class="menu menu-page">
+   <!-- Hot Drinks Category -->
+    <div class="menu-category" id="hd">
+      <h1>Hot Drinks</h1>
+      <hr class="divider">
+
+      <!-- Menu Items -->
+       <div class="menu-items">
+        <div class="menu-item">
+          <img src="img/menu-items/menu-item-1.png" alt="img">
+          <a href="product.html">
+            <h4>Espresso</h4>
+          </a>
+        </div>
+
+        <div class="menu-item">
+          <img src="img/menu-items/menu-item-2.png" alt="img">
+          <a href="product.html">
+            <h4>Chai Latte</h4>
+          </a>
+        </div>
+
+        <div class="menu-item">
+          <img src="img/menu-items/menu-item-3.png" alt="img">
+          <a href="product.html">
+            <h4>Hot Chocolate</h4>
+          </a>
+        </div>
+       </div>
+    </div>
+
+   <!-- Cold Drinks Category -->
+   <div class="menu-category" id="cd">
+    <h1>Cold Drinks</h1>
+    <hr class="divider">
+
+    <!-- Menu Items -->
+     <div class="menu-items">
+      <div class="menu-item">
+        <img src="img/menu-items/menu-item-4.png" alt="img">
+        <a href="product.html">
+          <h4>Iced Coffee</h4>
+        </a>
+      </div>
+
+      <div class="menu-item">
+        <img src="img/menu-items/menu-item-5.png" alt="img">
+        <a href="product.html">
+          <h4>Iced Tea</h4>
+        </a>
+      </div>
+
+      <div class="menu-item">
+        <img src="img/menu-items/menu-item-6.png" alt="img">
+        <a href="product.html">
+          <h4>Fruit Smooothie</h4>
+        </a>
+      </div>
+     </div>
+  </div>
+  
+   <!-- Food Category -->
+   <div class="menu-category" id="fd">
+    <h1>Foods</h1>
+    <hr class="divider">
+
+    <!-- Menu Items -->
+     <div class="menu-items">
+      <div class="menu-item">
+        <img src="img/menu-items/menu-item-7.png" alt="img">
+        <a href="product.html">
+          <h4>Pastries</h4>
+        </a>
+      </div>
+
+      <div class="menu-item">
+        <img src="img/menu-items/menu-item-8.png" alt="img">
+        <a href="product.html">
+          <h4>Salads</h4>
+        </a>
+      </div>
+
+      <div class="menu-item">
+        <img src="img/menu-items/menu-item-9.png" alt="img">
+        <a href="product.html">
+          <h4>Snacks</h4>
+        </a>
+      </div>
+     </div>
+  </div>
+
+   <!-- Merchandise Category -->
+   <div class="menu-category" id="md">
+    <h1>Merchandise</h1>
+    <hr class="divider">
+
+    <!-- Menu Items -->
+     <div class="menu-items">
+      <div class="menu-item">
+        <img src="img/menu-items/menu-item-10.png" alt="img">
+        <a href="product.html">
+          <h4>Cups</h4>
+        </a>
+      </div>
+
+      <div class="menu-item">
+        <img src="img/menu-items/menu-item-11.png" alt="img">
+        <a href="product.html">
+          <h4>Mugs</h4>
+        </a>
+      </div>
+
+      <div class="menu-item">
+        <img src="img/menu-items/menu-item-12.png" alt="img">
+        <a href="product.html">
+          <h4>Tote Bags</h4>
+        </a>
+      </div>
+     </div>
+  </div>
+    
+</section>
+ 
+  <div class="callout">
+    <div>
+      <h4>Do you know we have a daily delivery service?</h4>
+      <i class="fa-solid fa-truck" style="color: white;"></i>
+    </div>
+    <h1>Elevating Your Coffee Experience</h1>
+    <button class="btn-2 btn-callout" onclick="window.location.href='contact.html'">
+      Contact Us
+  </button> 
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#">
+      <h1>The Coffee Shop</h1>
+    </a>
+    
+    <div class="socials">
+      <a href="facebook.com">
+        <div class="social-box">
+          <i class="fa-brands fa-facebook-f"></i>
+        </div>
+      </a>
+
+      <a href="x.com">
+        <div class="social-box">
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+      </a>
+
+      <a href="linkedin.com">
+        <div class="social-box">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </a>
+
+      <a href="instagram.com">
+        <div class="social-box">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
